@@ -12,9 +12,9 @@ link_txt{1, 11} = sprintf('l2 retracted angle: %.2f deg', rad2deg(mSolx(1,4)));
 link_txt{1, 12} = sprintf('l3 retracted angle: %.2f deg', rad2deg(mSolx(1,5)));
 
 global time
-step = 3;
+step = 1;
 n = 1;
-time = 1;
+time = 0.01;
 
 while n < 10
 for i=1:step:total
